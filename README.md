@@ -12,6 +12,7 @@ update a database for annotation platform based on ANNOVAR (such as varAFT)
    
    **Linux**
    >> wget http://www.openbioinformatics.org/annovar/download/hg19_clinvar_20221231.txt.gz
+   
    >> wget http://www.openbioinformatics.org/annovar/download/hg19_clinvar_20221231.txt.idx.gz
    
    **Windows**
