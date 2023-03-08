@@ -21,10 +21,12 @@ update a database for annotation platform based on ANNOVAR (such as varAFT)
    
    **ANNOVAR commend line**
    -  check the database list
-   	>> perl annotate_variation.pl --downdb avdblist --webfrom annovar --buildver hg19 .
+   
+      >> perl annotate_variation.pl --downdb avdblist --webfrom annovar --buildver hg19 .
       
       ![image](https://user-images.githubusercontent.com/22020125/223760457-5cfb099f-3692-47bc-8165-d7b0d33892a8.png)
    -  download the database
+      
       >> perl annotate_variation.pl --downdb hg19_clinvar_20221231 D:\humandb/hg19/ -webfrom annovar -buildver hg19
       
       ![image](https://user-images.githubusercontent.com/22020125/223760708-4eae0645-8a26-434f-b6e1-70ee09a8a952.png)
