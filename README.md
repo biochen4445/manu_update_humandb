@@ -12,12 +12,15 @@ update a database for annotation platform based on ANNOVAR (such as varAFT)
    
    **Linux**
    >> wget http://www.openbioinformatics.org/annovar/download/hg19_clinvar_20221231.txt.gz
+   >> wget http://www.openbioinformatics.org/annovar/download/hg19_clinvar_20221231.txt.idx.gz
    
    **Windows**
    
    double click 
    
    http://www.openbioinformatics.org/annovar/download/hg19_clinvar_20221231.txt.gz
+   
+   http://www.openbioinformatics.org/annovar/download/hg19_clinvar_20221231.txt.idx.gz
    
    **ANNOVAR commend line**
    -  check the database list
@@ -32,9 +35,8 @@ update a database for annotation platform based on ANNOVAR (such as varAFT)
       ![image](https://user-images.githubusercontent.com/22020125/223760708-4eae0645-8a26-434f-b6e1-70ee09a8a952.png)
 
 ## *Step2 create index file for database when data*
-1. unzip hg19_clinvar_20221231.txt.gz, you will see a txt and a idx file.
-2. if not, create a idx file for customized database in Linux
-   >> perl index_annovar.pl xxx.txt
+1. if no idx, create a idx file for customized database in Linux
+   >> perl index_annovar.pl xxx.txt.gz
 
 ## *Step3 move to database folder*
 1. move .txt and .idx files into the databse folder ( *hunmandb/* )
