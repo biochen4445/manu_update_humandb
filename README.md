@@ -40,7 +40,7 @@ update a database for annotation platform based on ANNOVAR (such as varAFT)
    >> perl index_annovar.pl xxx.txt.gz
 
 ## *Step3 move to database folder*
-1. move .txt and .idx files into the databse folder ( *hunmandb/* )
+1. move .txt and .idx files into the databse folder ( *D:\humandb/* )
 2. modify the name for the software such as varAFT.
    
    Rename "hg19_clinvar_20221231" to "hg19_clinvar"
