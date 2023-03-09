@@ -11,7 +11,7 @@ update a database for annotation platforms based on ANNOVAR (such as varAFT)
 2. create the download link by following the naming system (example: hg19_clinvar20221231)
    
    **Linux**
-   >> wget http://www.openbioinformatics.org/annovar/download/hg19_clinvar_20221231.txt.gz
+   ` wget http://www.openbioinformatics.org/annovar/download/hg19_clinvar_20221231.txt.gz`
    
    >> wget http://www.openbioinformatics.org/annovar/download/hg19_clinvar_20221231.txt.idx.gz
    
